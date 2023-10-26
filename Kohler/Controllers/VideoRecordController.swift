@@ -380,7 +380,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
                 cameraSession.startRunning()
                 btnVideoConfirm.isHidden = true
                 recordingRedView.isHidden = false
-                btnRecord.isHidden = false
+                btnRecord.isHidden = true
                 view.bringSubviewToFront(imgFrame)
                 VIEWFORVIDEO.bringSubviewToFront(btnRecord)
                 //deleteTempFileIfExists()
