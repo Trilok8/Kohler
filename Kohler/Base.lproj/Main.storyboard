@@ -333,17 +333,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CountDownBG" translatesAutoresizingMaskIntoConstraints="NO" id="6NV-Jy-kuW">
-                                <rect key="frame" x="-422.5" y="146" width="1665" height="888"/>
+                                <rect key="frame" x="-422.5" y="116" width="1665" height="888"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6NV-Jy-kuW" secondAttribute="height" multiplier="15:8" id="DqB-Ll-71i"/>
                                     <constraint firstAttribute="height" constant="888" id="ZrI-78-mhP"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1h9-7c-CJX">
-                                <rect key="frame" x="316" y="868" width="188" height="242"/>
+                                <rect key="frame" x="317" y="930" width="186" height="180"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="242" id="AUO-CZ-Xg2"/>
-                                    <constraint firstAttribute="width" secondItem="1h9-7c-CJX" secondAttribute="height" multiplier="377:485" id="m2j-Ib-mj5"/>
+                                    <constraint firstAttribute="width" secondItem="1h9-7c-CJX" secondAttribute="height" multiplier="1187:1150" id="Y6U-VZ-fML"/>
+                                    <constraint firstAttribute="height" constant="180" id="o8g-Ln-bzT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -369,7 +369,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Gka-A6-rnY" firstAttribute="leading" secondItem="igd-eO-mzc" secondAttribute="leading" constant="30" id="1VG-jB-n2i"/>
-                            <constraint firstItem="6NV-Jy-kuW" firstAttribute="centerY" secondItem="igd-eO-mzc" secondAttribute="centerY" id="7D9-vX-gLy"/>
+                            <constraint firstItem="6NV-Jy-kuW" firstAttribute="centerY" secondItem="igd-eO-mzc" secondAttribute="centerY" constant="-30" id="7D9-vX-gLy"/>
                             <constraint firstItem="TUG-dk-yRG" firstAttribute="top" secondItem="igd-eO-mzc" secondAttribute="top" id="9hH-M2-aY5"/>
                             <constraint firstAttribute="trailing" secondItem="TUG-dk-yRG" secondAttribute="trailing" id="Amy-9g-fKx"/>
                             <constraint firstItem="yKl-XO-IUX" firstAttribute="bottom" secondItem="1h9-7c-CJX" secondAttribute="bottom" constant="50" id="Rom-ZR-6qw"/>
@@ -436,7 +436,7 @@
         <image name="emailsent" width="1113" height="725"/>
         <image name="home" width="327" height="230"/>
         <image name="play" width="122" height="122"/>
-        <image name="rec" width="377" height="485"/>
+        <image name="rec" width="1187" height="1150"/>
         <image name="retake" width="327" height="230"/>
         <image name="send" width="238" height="228"/>
         <image name="start" width="551" height="178"/>
