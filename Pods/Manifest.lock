@@ -1,0 +1,16 @@
+PODS:
+  - MediaWatermark (0.4.0)
+
+DEPENDENCIES:
+  - MediaWatermark
+
+SPEC REPOS:
+  trunk:
+    - MediaWatermark
+
+SPEC CHECKSUMS:
+  MediaWatermark: d67db91deaaa9403220899adfb59c80221a02a7d
+
+PODFILE CHECKSUM: d317dcb96279cbbdf288726959159418857e476b
+
+COCOAPODS: 1.11.3

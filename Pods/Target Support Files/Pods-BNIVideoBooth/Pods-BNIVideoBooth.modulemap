@@ -1,0 +1,6 @@
+framework module Pods_BNIVideoBooth {
+  umbrella header "Pods-BNIVideoBooth-umbrella.h"
+
+  export *
+  module * { export * }
+}
