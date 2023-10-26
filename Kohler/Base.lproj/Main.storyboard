@@ -102,13 +102,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7D5-Lf-dnL">
-                                <rect key="frame" x="196.5" y="1070" width="427" height="100"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7D5-Lf-dnL">
+                                <rect key="frame" x="247" y="1090" width="326" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJC-cW-CTe">
-                                        <rect key="frame" x="0.0" y="0.0" width="142.5" height="100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="80"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="fJC-cW-CTe" secondAttribute="height" multiplier="327:230" id="7HL-Mr-JXe"/>
+                                            <constraint firstAttribute="width" secondItem="fJC-cW-CTe" secondAttribute="height" multiplier="229:193" id="Wz6-ib-bhd"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="home"/>
@@ -117,9 +117,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abq-T2-lfT">
-                                        <rect key="frame" x="142.5" y="0.0" width="142" height="100"/>
+                                        <rect key="frame" x="115" y="0.0" width="95.5" height="80"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="Abq-T2-lfT" secondAttribute="height" multiplier="327:230" id="7fL-F0-8Le"/>
+                                            <constraint firstAttribute="width" secondItem="Abq-T2-lfT" secondAttribute="height" multiplier="230:193" id="F0W-oS-RpV"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="retake"/>
@@ -128,9 +128,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khr-dv-OjW">
-                                        <rect key="frame" x="284.5" y="0.0" width="142.5" height="100"/>
+                                        <rect key="frame" x="230.5" y="0.0" width="95.5" height="80"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="khr-dv-OjW" secondAttribute="height" multiplier="327:230" id="G3m-Qs-OhJ"/>
+                                            <constraint firstAttribute="width" secondItem="khr-dv-OjW" secondAttribute="height" multiplier="230:193" id="CNN-hz-AHQ"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="check mark"/>
@@ -140,7 +140,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="A25-q9-PIJ"/>
+                                    <constraint firstAttribute="height" constant="80" id="9AI-gU-Sna"/>
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ff8-ym-zKU">
@@ -428,17 +428,17 @@
         <image name="4" width="1668" height="2388"/>
         <image name="BG" width="1668" height="2388"/>
         <image name="BGMain" width="1668" height="2388"/>
-        <image name="Back" width="81" height="76"/>
+        <image name="Back" width="105" height="100"/>
         <image name="CountDownBG" width="1314" height="1776"/>
         <image name="FrameNew" width="1668" height="2388"/>
-        <image name="check mark" width="327" height="230"/>
+        <image name="check mark" width="230" height="193"/>
         <image name="close" width="115" height="112"/>
         <image name="emailsent" width="1113" height="725"/>
-        <image name="home" width="327" height="230"/>
+        <image name="home" width="229" height="193"/>
         <image name="play" width="122" height="122"/>
         <image name="rec" width="1187" height="1150"/>
-        <image name="retake" width="327" height="230"/>
-        <image name="send" width="238" height="228"/>
+        <image name="retake" width="230" height="193"/>
+        <image name="send" width="230" height="193"/>
         <image name="start" width="551" height="178"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
