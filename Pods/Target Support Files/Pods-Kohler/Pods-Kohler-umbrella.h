@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_BNIVideoBoothVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BNIVideoBoothVersionString[];
+FOUNDATION_EXPORT double Pods_KohlerVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KohlerVersionString[];
 

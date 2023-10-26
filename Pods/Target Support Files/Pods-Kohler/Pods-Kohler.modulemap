@@ -1,0 +1,6 @@
+framework module Pods_Kohler {
+  umbrella header "Pods-Kohler-umbrella.h"
+
+  export *
+  module * { export * }
+}

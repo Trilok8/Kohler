@@ -1,10 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'BNIVideoBooth' do
+target 'Kohler' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for BNIVideoBooth
+  # Pods for Kohler
 pod "MediaWatermark"
 end

@@ -3,17 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04073094D3593BD3D87B090AA4EF7099 /* Pods-Kohler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64066F44068A5B77BC20EC4068758A4F /* Pods-Kohler-dummy.m */; };
 		118CE7CC0280C029ECE041A803000C37 /* MediaWatermark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 846241865F4C82DCBE7F365AD775D4E3 /* MediaWatermark-dummy.m */; };
-		13DDD54CE716363899FEA31B888CA765 /* Pods-BNIVideoBooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC429EE4B89C6F5C8404CB1AB0FF919 /* Pods-BNIVideoBooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		151DE0EFF9B6B7436BEA10D6311A975E /* ColorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B06882BDE126667DD82287B93A3C7F /* ColorFilter.swift */; };
 		184427FF6FBD5F2759EEDE345CAB7D6B /* FilterShaderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8BAD2DC44DAEFC6BCCADB32973DB1 /* FilterShaderProvider.swift */; };
 		355818104938F3D228D229BD8E6CDF27 /* MediaElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F344F5858B5E04F3278BD521D5FFEFC6 /* MediaElement.swift */; };
 		37541F1136C3E16C80A7B309FBA3DDBB /* SobelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485B9C64704A29A7028368F20C074330 /* SobelFilter.swift */; };
 		3E2DF193B362C3DD51BA5DCE2BEF3E86 /* ThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DD4A6E81390962E3246AF8974E73CA /* ThresholdFilter.swift */; };
+		422D2AD8CFFADA2523297A98B9217020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		5485932A82773DA9F74D8D3DB6FD1086 /* FilterProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1286EAD47EC26EBDF49844479F18D /* FilterProcessor.swift */; };
 		635228061A6A53AD444928418C5A530D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		6E320009DBB061A258D63AB08EB1B27B /* BlurFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05BD3DA2D132EC9EC111591603DC10 /* BlurFilter.swift */; };
@@ -25,16 +26,15 @@
 		95003F4ABAF5BCCD234FF24F3EFFD686 /* MediaProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BE3D9B686F6961F40A109615ED19BD /* MediaProcessor.swift */; };
 		966979593ED3938B3BEEFC8FD4C2417C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		9A49D25085C8E7AA6AE983F0B29A2B66 /* GraphicContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3FB9BBD3CBD5141EF90E958C5D7DD /* GraphicContext.swift */; };
-		A254767AD2F1431BD7E45311CDB0D76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		A6CB1FFE1EE798089A87A7BB24393AF8 /* Pods-Kohler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C78CC36A068F0AE7C8003BBF659C7D /* Pods-Kohler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAA114B9DB34F20726D7121922C46FF6 /* MediaImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A058AC9D27237D676C7CA107F1733565 /* MediaImageProcessor.swift */; };
 		D0154A7A38BE7DD5F4EA7B363B35AB03 /* MediaWatermark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA6BCB0C1F39527A6D7E684A5857A0E /* MediaWatermark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D716C869D04B4766C5F926C16500D71C /* Pods-BNIVideoBooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0B5DB75C0ACA9DA791C3EF61F800C /* Pods-BNIVideoBooth-dummy.m */; };
 		D80C7A2CCB3F2A30D1F6696094B33875 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C6C6A9939DBFF8846FFE465147C14 /* MediaFilter.swift */; };
 		EE82F1FB2586C29AF204344D4442199B /* SepiaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F9AB4B48645B9AAF53082F0D91FB1 /* SepiaFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA117295A830FA0DD36703683BFF1728 /* PBXContainerItemProxy */ = {
+		BB31901EEA0B443A79B0134FB7824EEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -44,61 +44,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0323EA5AB17FB7D53EDEFFC159BF6DB6 /* Pods-BNIVideoBooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNIVideoBooth.modulemap"; sourceTree = "<group>"; };
 		05D1286EAD47EC26EBDF49844479F18D /* FilterProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterProcessor.swift; path = Sources/Classes/Filters/FilterProcessor.swift; sourceTree = "<group>"; };
+		088C313E9121679F229ABCA12E0E1475 /* Pods-Kohler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kohler.debug.xcconfig"; sourceTree = "<group>"; };
 		08F8BAD2DC44DAEFC6BCCADB32973DB1 /* FilterShaderProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterShaderProvider.swift; path = Sources/Classes/Filters/Effects/FilterShaderProvider.swift; sourceTree = "<group>"; };
+		14F7F72C12F780001F296526413FA57D /* Pods-Kohler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kohler-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DA6BCB0C1F39527A6D7E684A5857A0E /* MediaWatermark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediaWatermark-umbrella.h"; sourceTree = "<group>"; };
-		1DC429EE4B89C6F5C8404CB1AB0FF919 /* Pods-BNIVideoBooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNIVideoBooth-umbrella.h"; sourceTree = "<group>"; };
 		2A25A26EA5896CCEC3333CF4AC1B370D /* MediaVideoProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaVideoProcessor.swift; path = Sources/Classes/Core/MediaVideoProcessor.swift; sourceTree = "<group>"; };
-		2DF0B5DB75C0ACA9DA791C3EF61F800C /* Pods-BNIVideoBooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNIVideoBooth-dummy.m"; sourceTree = "<group>"; };
 		3AB6B39ABA0D846CFA27227663A57DB9 /* MediaWatermark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediaWatermark-prefix.pch"; sourceTree = "<group>"; };
-		3BEC398CA688F4F6AACC21EC7C6869B7 /* Pods-BNIVideoBooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNIVideoBooth.debug.xcconfig"; sourceTree = "<group>"; };
-		441DEFAE9A8EA197754ED87D27704A73 /* Pods-BNIVideoBooth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNIVideoBooth-Info.plist"; sourceTree = "<group>"; };
+		3E16B1BC284E023AB7723EAE9A8FFF3D /* Pods-Kohler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kohler-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4428337D77CDC75CD025D740F203D928 /* Pods-Kohler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kohler.modulemap"; sourceTree = "<group>"; };
 		485B9C64704A29A7028368F20C074330 /* SobelFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SobelFilter.swift; path = Sources/Classes/Filters/Effects/SobelFilter.swift; sourceTree = "<group>"; };
 		499CF9944BA53F530016C3AA08430179 /* Assets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assets.swift; path = Sources/Classes/Extensions/Assets.swift; sourceTree = "<group>"; };
-		523F4253420D9CDDB8F0884E053AE600 /* Pods-BNIVideoBooth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNIVideoBooth-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5454D93D068C3972B84F77FDA9D530F4 /* FilterShaderParamManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterShaderParamManager.swift; path = Sources/Classes/Filters/Effects/FilterShaderParamManager.swift; sourceTree = "<group>"; };
 		63554C7F7A0979EDCF8C572944AAE2EB /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Images.swift; path = Sources/Classes/Extensions/Images.swift; sourceTree = "<group>"; };
+		64066F44068A5B77BC20EC4068758A4F /* Pods-Kohler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kohler-dummy.m"; sourceTree = "<group>"; };
 		6A39E621F01041100468D3E4C87F5BAB /* MediaWatermark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MediaWatermark.modulemap; sourceTree = "<group>"; };
 		6B916C38AEF6AB674C4775FC6F3CE838 /* MediaWatermark-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MediaWatermark-Info.plist"; sourceTree = "<group>"; };
-		7586B1239A52E778680D29ECF588D0C0 /* Pods-BNIVideoBooth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BNIVideoBooth"; path = Pods_BNIVideoBooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDB0408829C024CEDF8AA80DA44B2F4 /* Pods-Kohler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kohler-frameworks.sh"; sourceTree = "<group>"; };
 		846241865F4C82DCBE7F365AD775D4E3 /* MediaWatermark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediaWatermark-dummy.m"; sourceTree = "<group>"; };
-		8BE0272C69F3C3A1CCA8F5F0F6F70F34 /* Pods-BNIVideoBooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNIVideoBooth.release.xcconfig"; sourceTree = "<group>"; };
+		8D24F4CA9F687E7B99C61D0E2CFD491A /* Pods-Kohler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kohler.release.xcconfig"; sourceTree = "<group>"; };
 		951E17CB76BBBE5A286B389220E2DFCD /* MediaWatermark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediaWatermark.debug.xcconfig; sourceTree = "<group>"; };
 		976383E1A879878104E46C35B2F090D9 /* MediaItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaItem.swift; path = Sources/Classes/Core/MediaItem.swift; sourceTree = "<group>"; };
 		98B06882BDE126667DD82287B93A3C7F /* ColorFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorFilter.swift; path = Sources/Classes/Filters/Effects/ColorFilter.swift; sourceTree = "<group>"; };
+		99B4F6A2673E6E1B6D14400078ED80C3 /* Pods-Kohler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Kohler"; path = Pods_Kohler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2F9AB4B48645B9AAF53082F0D91FB1 /* SepiaFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SepiaFilter.swift; path = Sources/Classes/Filters/Effects/SepiaFilter.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A058AC9D27237D676C7CA107F1733565 /* MediaImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaImageProcessor.swift; path = Sources/Classes/Core/MediaImageProcessor.swift; sourceTree = "<group>"; };
 		B5BE3D9B686F6961F40A109615ED19BD /* MediaProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaProcessor.swift; path = Sources/Classes/Core/MediaProcessor.swift; sourceTree = "<group>"; };
 		BD05BD3DA2D132EC9EC111591603DC10 /* BlurFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurFilter.swift; path = Sources/Classes/Filters/Effects/BlurFilter.swift; sourceTree = "<group>"; };
-		C07A82326C4AD2613CD44C2679EAF799 /* MediaWatermark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediaWatermark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD0BBCCF55B70F09B49F485398087796 /* Pods-BNIVideoBooth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BNIVideoBooth-frameworks.sh"; sourceTree = "<group>"; };
+		C07A82326C4AD2613CD44C2679EAF799 /* MediaWatermark */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MediaWatermark; path = MediaWatermark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D5EA96FAA5A2A02F2C3CB8E983CA9850 /* Pods-BNIVideoBooth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNIVideoBooth-acknowledgements.plist"; sourceTree = "<group>"; };
 		D8F3FB9BBD3CBD5141EF90E958C5D7DD /* GraphicContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicContext.swift; path = Sources/Classes/Filters/GraphicContext.swift; sourceTree = "<group>"; };
+		DF7082CAD515126C877DF74C2AA584CD /* Pods-Kohler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kohler-Info.plist"; sourceTree = "<group>"; };
 		E6DD4A6E81390962E3246AF8974E73CA /* ThresholdFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThresholdFilter.swift; path = Sources/Classes/Filters/Effects/ThresholdFilter.swift; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		ED7C6C6A9939DBFF8846FFE465147C14 /* MediaFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaFilter.swift; path = Sources/Classes/Filters/MediaFilter.swift; sourceTree = "<group>"; };
 		F344F5858B5E04F3278BD521D5FFEFC6 /* MediaElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaElement.swift; path = Sources/Classes/Core/MediaElement.swift; sourceTree = "<group>"; };
 		F56CCE314DABB3B6FDF81A059C7CFBF8 /* MediaWatermark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediaWatermark.release.xcconfig; sourceTree = "<group>"; };
+		F9C78CC36A068F0AE7C8003BBF659C7D /* Pods-Kohler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kohler-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4334C64AB61BD39DFD6AE8E01257AC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422D2AD8CFFADA2523297A98B9217020 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58CDBB27A17847D231826F0C03E45E9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				966979593ED3938B3BEEFC8FD4C2417C /* Foundation.framework in Frameworks */,
 				635228061A6A53AD444928418C5A530D /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92A6E5F08ED212BA08257F05FE9863A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A254767AD2F1431BD7E45311CDB0D76A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,14 +111,6 @@
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2DBEE3DF62AEF1863430589802E24D4D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF39CE49FF6E1D75490929A095663CF0 /* Pods-BNIVideoBooth */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -145,11 +137,19 @@
 			path = "../Target Support Files/MediaWatermark";
 			sourceTree = "<group>";
 		};
-		6E1A259D67DC7129618E3E100BC78545 /* Products */ = {
+		8F8503D62EE14A8BA2403433D5712F1C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C07A82326C4AD2613CD44C2679EAF799 /* MediaWatermark.framework */,
-				7586B1239A52E778680D29ECF588D0C0 /* Pods-BNIVideoBooth */,
+				E57441BFBAEF882B467AA9FE80EAEDB0 /* Pods-Kohler */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9492BF51137A79FBF6AB59815951712F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07A82326C4AD2613CD44C2679EAF799 /* MediaWatermark */,
+				99B4F6A2673E6E1B6D14400078ED80C3 /* Pods-Kohler */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,26 +168,26 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				CC8ABCF4874D3D9F28D0AE63919B0058 /* Pods */,
-				6E1A259D67DC7129618E3E100BC78545 /* Products */,
-				2DBEE3DF62AEF1863430589802E24D4D /* Targets Support Files */,
+				9492BF51137A79FBF6AB59815951712F /* Products */,
+				8F8503D62EE14A8BA2403433D5712F1C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DF39CE49FF6E1D75490929A095663CF0 /* Pods-BNIVideoBooth */ = {
+		E57441BFBAEF882B467AA9FE80EAEDB0 /* Pods-Kohler */ = {
 			isa = PBXGroup;
 			children = (
-				0323EA5AB17FB7D53EDEFFC159BF6DB6 /* Pods-BNIVideoBooth.modulemap */,
-				523F4253420D9CDDB8F0884E053AE600 /* Pods-BNIVideoBooth-acknowledgements.markdown */,
-				D5EA96FAA5A2A02F2C3CB8E983CA9850 /* Pods-BNIVideoBooth-acknowledgements.plist */,
-				2DF0B5DB75C0ACA9DA791C3EF61F800C /* Pods-BNIVideoBooth-dummy.m */,
-				CD0BBCCF55B70F09B49F485398087796 /* Pods-BNIVideoBooth-frameworks.sh */,
-				441DEFAE9A8EA197754ED87D27704A73 /* Pods-BNIVideoBooth-Info.plist */,
-				1DC429EE4B89C6F5C8404CB1AB0FF919 /* Pods-BNIVideoBooth-umbrella.h */,
-				3BEC398CA688F4F6AACC21EC7C6869B7 /* Pods-BNIVideoBooth.debug.xcconfig */,
-				8BE0272C69F3C3A1CCA8F5F0F6F70F34 /* Pods-BNIVideoBooth.release.xcconfig */,
+				4428337D77CDC75CD025D740F203D928 /* Pods-Kohler.modulemap */,
+				3E16B1BC284E023AB7723EAE9A8FFF3D /* Pods-Kohler-acknowledgements.markdown */,
+				14F7F72C12F780001F296526413FA57D /* Pods-Kohler-acknowledgements.plist */,
+				64066F44068A5B77BC20EC4068758A4F /* Pods-Kohler-dummy.m */,
+				6BDB0408829C024CEDF8AA80DA44B2F4 /* Pods-Kohler-frameworks.sh */,
+				DF7082CAD515126C877DF74C2AA584CD /* Pods-Kohler-Info.plist */,
+				F9C78CC36A068F0AE7C8003BBF659C7D /* Pods-Kohler-umbrella.h */,
+				088C313E9121679F229ABCA12E0E1475 /* Pods-Kohler.debug.xcconfig */,
+				8D24F4CA9F687E7B99C61D0E2CFD491A /* Pods-Kohler.release.xcconfig */,
 			);
-			name = "Pods-BNIVideoBooth";
-			path = "Target Support Files/Pods-BNIVideoBooth";
+			name = "Pods-Kohler";
+			path = "Target Support Files/Pods-Kohler";
 			sourceTree = "<group>";
 		};
 		E7190144C45E5270EFDAD48EB0BC58EC /* MediaWatermark */ = {
@@ -212,12 +212,21 @@
 				E6DD4A6E81390962E3246AF8974E73CA /* ThresholdFilter.swift */,
 				5D891ABAC53670EDC3034C8DBFC21BD6 /* Support Files */,
 			);
+			name = MediaWatermark;
 			path = MediaWatermark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		58D96A0589C154E1D93DC6489894D9DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB1FFE1EE798089A87A7BB24393AF8 /* Pods-Kohler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C3DDB472FB9B5921FB4C1B458C38886 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,17 +235,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91A45E403143C3794F936185B682050B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13DDD54CE716363899FEA31B888CA765 /* Pods-BNIVideoBooth-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		037639729C2D41F0D4782C486E0DFB1C /* Pods-Kohler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68745290987C2E9D254488DA85B61406 /* Build configuration list for PBXNativeTarget "Pods-Kohler" */;
+			buildPhases = (
+				58D96A0589C154E1D93DC6489894D9DE /* Headers */,
+				71A276A3F157D205EC765A60EE0BDE81 /* Sources */,
+				4334C64AB61BD39DFD6AE8E01257AC1E /* Frameworks */,
+				7619DBDAA8055D25A543F53B7EE6A7B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A13BE89FF8761276C8CEC89FA1E6FAF /* PBXTargetDependency */,
+			);
+			name = "Pods-Kohler";
+			productName = Pods_Kohler;
+			productReference = 99B4F6A2673E6E1B6D14400078ED80C3 /* Pods-Kohler */;
+			productType = "com.apple.product-type.framework";
+		};
 		94283BFBFCBD152B243062CA125ADF02 /* MediaWatermark */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15577A99B75E08B934F66BB752A92F3A /* Build configuration list for PBXNativeTarget "MediaWatermark" */;
@@ -252,26 +272,7 @@
 			);
 			name = MediaWatermark;
 			productName = MediaWatermark;
-			productReference = C07A82326C4AD2613CD44C2679EAF799 /* MediaWatermark.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9B5C2D8979C5B38CE15DE9A0D5CC2755 /* Pods-BNIVideoBooth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3AB2BE7252AA32DA50F8049D32C4033 /* Build configuration list for PBXNativeTarget "Pods-BNIVideoBooth" */;
-			buildPhases = (
-				91A45E403143C3794F936185B682050B /* Headers */,
-				54B44B9A099F3D76B23AF637ADF91B9C /* Sources */,
-				92A6E5F08ED212BA08257F05FE9863A2 /* Frameworks */,
-				EA452A2257FA52B5654069CE02796CAD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7A9310128534695DF40E8A6812DF37A1 /* PBXTargetDependency */,
-			);
-			name = "Pods-BNIVideoBooth";
-			productName = Pods_BNIVideoBooth;
-			productReference = 7586B1239A52E778680D29ECF588D0C0 /* Pods-BNIVideoBooth */;
+			productReference = C07A82326C4AD2613CD44C2679EAF799 /* MediaWatermark */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -280,11 +281,11 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -292,12 +293,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6E1A259D67DC7129618E3E100BC78545 /* Products */;
+			productRefGroup = 9492BF51137A79FBF6AB59815951712F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				94283BFBFCBD152B243062CA125ADF02 /* MediaWatermark */,
-				9B5C2D8979C5B38CE15DE9A0D5CC2755 /* Pods-BNIVideoBooth */,
+				037639729C2D41F0D4782C486E0DFB1C /* Pods-Kohler */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +311,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA452A2257FA52B5654069CE02796CAD /* Resources */ = {
+		7619DBDAA8055D25A543F53B7EE6A7B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,11 +321,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54B44B9A099F3D76B23AF637ADF91B9C /* Sources */ = {
+		71A276A3F157D205EC765A60EE0BDE81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D716C869D04B4766C5F926C16500D71C /* Pods-BNIVideoBooth-dummy.m in Sources */,
+				04073094D3593BD3D87B090AA4EF7099 /* Pods-Kohler-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +357,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A9310128534695DF40E8A6812DF37A1 /* PBXTargetDependency */ = {
+		2A13BE89FF8761276C8CEC89FA1E6FAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MediaWatermark;
 			target = 94283BFBFCBD152B243062CA125ADF02 /* MediaWatermark */;
-			targetProxy = AA117295A830FA0DD36703683BFF1728 /* PBXContainerItemProxy */;
+			targetProxy = BB31901EEA0B443A79B0134FB7824EEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,7 +381,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MediaWatermark/MediaWatermark-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MediaWatermark/MediaWatermark-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +401,43 @@
 			};
 			name = Release;
 		};
+		4DDA3151AE9277861DC20C0FFE27C176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088C313E9121679F229ABCA12E0E1475 /* Pods-Kohler.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kohler/Pods-Kohler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kohler/Pods-Kohler.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5E315639F2DD060DF0485C27D3D9AFD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 951E17CB76BBBE5A286B389220E2DFCD /* MediaWatermark.debug.xcconfig */;
@@ -415,7 +453,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MediaWatermark/MediaWatermark-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MediaWatermark/MediaWatermark-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,44 +471,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		676D55858337D9C90DD26872C11146AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BE0272C69F3C3A1CCA8F5F0F6F70F34 /* Pods-BNIVideoBooth.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BNIVideoBooth/Pods-BNIVideoBooth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BNIVideoBooth/Pods-BNIVideoBooth.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -600,9 +600,9 @@
 			};
 			name = Release;
 		};
-		AA91EC85273664366455423B74DC5748 /* Debug */ = {
+		C017DF1B14148CD672F198582849DF4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BEC398CA688F4F6AACC21EC7C6869B7 /* Pods-BNIVideoBooth.debug.xcconfig */;
+			baseConfigurationReference = 8D24F4CA9F687E7B99C61D0E2CFD491A /* Pods-Kohler.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -614,7 +614,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BNIVideoBooth/Pods-BNIVideoBooth-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kohler/Pods-Kohler-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,7 +623,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BNIVideoBooth/Pods-BNIVideoBooth.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Kohler/Pods-Kohler.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -632,10 +632,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -658,11 +659,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3AB2BE7252AA32DA50F8049D32C4033 /* Build configuration list for PBXNativeTarget "Pods-BNIVideoBooth" */ = {
+		68745290987C2E9D254488DA85B61406 /* Build configuration list for PBXNativeTarget "Pods-Kohler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA91EC85273664366455423B74DC5748 /* Debug */,
-				676D55858337D9C90DD26872C11146AE /* Release */,
+				4DDA3151AE9277861DC20C0FFE27C176 /* Debug */,
+				C017DF1B14148CD672F198582849DF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QEI-iq-2HZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QEI-iq-2HZ">
     <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -89,7 +89,7 @@
                                     <action selector="dismissCurrent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4e-LV-wYn"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lji-oT-rVh">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lji-oT-rVh">
                                 <rect key="frame" x="57.5" y="110" width="10" height="10"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
@@ -289,14 +289,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG1" translatesAutoresizingMaskIntoConstraints="NO" id="PT7-96-bhy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="PT7-96-bhy">
                                 <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3g-dH-rIh">
-                                <rect key="frame" x="228.5" y="910" width="363" height="150"/>
+                                <rect key="frame" x="272.5" y="871" width="275.5" height="89"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="aCC-9W-xmg"/>
-                                    <constraint firstAttribute="width" secondItem="P3g-dH-rIh" secondAttribute="height" multiplier="557:230" id="kyr-CF-jJc"/>
+                                    <constraint firstAttribute="height" constant="89" id="KNe-bm-7bf"/>
+                                    <constraint firstAttribute="width" secondItem="P3g-dH-rIh" secondAttribute="height" multiplier="551:178" id="gck-56-Wwe"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="start"/>
@@ -311,7 +311,7 @@
                             <constraint firstItem="PT7-96-bhy" firstAttribute="top" secondItem="nYv-Qb-PuH" secondAttribute="top" id="5HS-Gk-SqQ"/>
                             <constraint firstItem="P3g-dH-rIh" firstAttribute="centerX" secondItem="nYv-Qb-PuH" secondAttribute="centerX" id="BCq-0d-kgW"/>
                             <constraint firstItem="PT7-96-bhy" firstAttribute="leading" secondItem="nYv-Qb-PuH" secondAttribute="leading" id="UkS-KS-WPi"/>
-                            <constraint firstItem="jma-4U-X2A" firstAttribute="bottom" secondItem="P3g-dH-rIh" secondAttribute="bottom" constant="100" id="iPN-48-Js5"/>
+                            <constraint firstItem="jma-4U-X2A" firstAttribute="bottom" secondItem="P3g-dH-rIh" secondAttribute="bottom" constant="200" id="iPN-48-Js5"/>
                             <constraint firstAttribute="bottom" secondItem="PT7-96-bhy" secondAttribute="bottom" id="mP0-J5-Zan"/>
                             <constraint firstAttribute="trailing" secondItem="PT7-96-bhy" secondAttribute="trailing" id="yc6-8l-a2d"/>
                         </constraints>
@@ -329,7 +329,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGMain" translatesAutoresizingMaskIntoConstraints="NO" id="TUG-dk-yRG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="TUG-dk-yRG">
                                 <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CountDownBG" translatesAutoresizingMaskIntoConstraints="NO" id="6NV-Jy-kuW">
@@ -340,10 +340,10 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1h9-7c-CJX">
-                                <rect key="frame" x="330" y="950" width="160" height="160"/>
+                                <rect key="frame" x="316" y="868" width="188" height="242"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="1h9-7c-CJX" secondAttribute="height" multiplier="1:1" id="Gfh-tM-r4b"/>
-                                    <constraint firstAttribute="height" constant="160" id="X45-tA-CgO"/>
+                                    <constraint firstAttribute="height" constant="242" id="AUO-CZ-Xg2"/>
+                                    <constraint firstAttribute="width" secondItem="1h9-7c-CJX" secondAttribute="height" multiplier="377:485" id="m2j-Ib-mj5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -426,8 +426,8 @@
     </scenes>
     <resources>
         <image name="4" width="1668" height="2388"/>
-        <image name="BG1" width="1669" height="2397"/>
-        <image name="BGMain" width="1669" height="2397"/>
+        <image name="BG" width="1668" height="2388"/>
+        <image name="BGMain" width="1668" height="2388"/>
         <image name="Back" width="81" height="76"/>
         <image name="CountDownBG" width="1314" height="1776"/>
         <image name="FrameNew" width="1668" height="2388"/>
@@ -436,10 +436,10 @@
         <image name="emailsent" width="1113" height="725"/>
         <image name="home" width="327" height="230"/>
         <image name="play" width="122" height="122"/>
-        <image name="rec" width="321" height="321"/>
+        <image name="rec" width="377" height="485"/>
         <image name="retake" width="327" height="230"/>
         <image name="send" width="238" height="228"/>
-        <image name="start" width="557" height="230"/>
+        <image name="start" width="551" height="178"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
