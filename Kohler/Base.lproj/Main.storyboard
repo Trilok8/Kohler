@@ -23,7 +23,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FrameNew" translatesAutoresizingMaskIntoConstraints="NO" id="GQz-iA-3u9">
                                         <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUx-ay-gNH">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUx-ay-gNH">
                                         <rect key="frame" x="330" y="970" width="160" height="160"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="JUx-ay-gNH" secondAttribute="height" multiplier="1:1" id="Blf-ME-Zsg"/>
