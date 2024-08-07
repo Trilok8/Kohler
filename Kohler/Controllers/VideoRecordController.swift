@@ -142,7 +142,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
                     fileOutput.startRecording(to: url, recordingDelegate: self as AVCaptureFileOutputRecordingDelegate)
                     print("Video Capture Started")
                 }
-                Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(stopRecording), userInfo: nil, repeats: false)
+                Timer.scheduledTimer(timeInterval: 15, target: self, selector: #selector(stopRecording), userInfo: nil, repeats: false)
                 for i in 0...4{
                     centerXConstraints[i].constant = -100
                 }
@@ -214,7 +214,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
             do {
                 let file: Data = try Data(contentsOf: fileURL!)
                 print(file.count)
-                if let url = URL(string: "http://15.184.55.228:8080/FileUpload"){
+                if let url = URL(string: "http://157.175.99.109:8000/FileUpload"){
                     let headers = [
                         "Content-type": "multipart/form-data"
                     ]
