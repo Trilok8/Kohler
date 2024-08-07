@@ -377,7 +377,10 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
                 videoPreviewLayer.backgroundColor = UIColor.red.cgColor
                 self.view.layer.addSublayer(videoPreviewLayer)
                 
-                cameraSession.startRunning()
+                DispatchQueue.global(qos: .background).async {
+                    self.cameraSession.startRunning()
+                }
+                
                 btnVideoConfirm.isHidden = true
                 recordingRedView.isHidden = false
                 btnRecord.isHidden = true
