@@ -24,7 +24,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                                     </imageView>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUx-ay-gNH">
-                                        <rect key="frame" x="330" y="970" width="160" height="160"/>
+                                        <rect key="frame" x="330" y="845" width="160" height="160"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="JUx-ay-gNH" secondAttribute="height" multiplier="1:1" id="Blf-ME-Zsg"/>
                                             <constraint firstAttribute="height" constant="160" id="JZi-tO-mOg"/>
@@ -39,7 +39,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="GQz-iA-3u9" firstAttribute="top" secondItem="ivf-dl-TUg" secondAttribute="top" id="Hgv-cf-FgS"/>
-                                    <constraint firstAttribute="bottom" secondItem="JUx-ay-gNH" secondAttribute="bottom" constant="50" id="PBM-g2-EZ4"/>
+                                    <constraint firstAttribute="bottom" secondItem="JUx-ay-gNH" secondAttribute="bottom" constant="175" id="PBM-g2-EZ4"/>
                                     <constraint firstAttribute="trailing" secondItem="GQz-iA-3u9" secondAttribute="trailing" id="QtP-rN-vI0"/>
                                     <constraint firstItem="GQz-iA-3u9" firstAttribute="leading" secondItem="ivf-dl-TUg" secondAttribute="leading" id="dgF-cy-G4D"/>
                                     <constraint firstItem="JUx-ay-gNH" firstAttribute="centerX" secondItem="ivf-dl-TUg" secondAttribute="centerX" id="itP-AG-Ezb"/>
@@ -150,7 +150,7 @@
                                         <rect key="frame" x="30" y="30" width="590" height="370"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hYP-c0-EpR">
-                                                <rect key="frame" x="10" y="160" width="350" height="50"/>
+                                                <rect key="frame" x="120" y="160" width="350" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="5qc-cy-fwu"/>
@@ -160,7 +160,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OnS-Ow-qwg">
-                                                <rect key="frame" x="404.5" y="160" width="175.5" height="50"/>
+                                                <rect key="frame" x="207.5" y="240" width="175" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="OnS-Ow-qwg" secondAttribute="height" multiplier="628:179" id="od3-Z8-81X"/>
                                                     <constraint firstAttribute="height" constant="50" id="yyZ-U4-oQa"/>
@@ -175,10 +175,10 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstItem="OnS-Ow-qwg" firstAttribute="centerY" secondItem="hYP-c0-EpR" secondAttribute="centerY" id="NeX-pQ-yY1"/>
+                                            <constraint firstItem="OnS-Ow-qwg" firstAttribute="top" secondItem="hYP-c0-EpR" secondAttribute="bottom" constant="30" id="8Hd-Nt-iLd"/>
+                                            <constraint firstItem="OnS-Ow-qwg" firstAttribute="centerX" secondItem="WKS-2Z-2w6" secondAttribute="centerX" id="EjE-IZ-RZM"/>
                                             <constraint firstItem="hYP-c0-EpR" firstAttribute="centerY" secondItem="WKS-2Z-2w6" secondAttribute="centerY" id="Qxg-5y-o5H"/>
-                                            <constraint firstItem="hYP-c0-EpR" firstAttribute="leading" secondItem="WKS-2Z-2w6" secondAttribute="leading" constant="10" id="fah-k0-qCe"/>
-                                            <constraint firstAttribute="trailing" secondItem="OnS-Ow-qwg" secondAttribute="trailing" constant="10" id="nK1-xL-WpT"/>
+                                            <constraint firstItem="hYP-c0-EpR" firstAttribute="centerX" secondItem="WKS-2Z-2w6" secondAttribute="centerX" id="lo1-cO-A46"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTER YOUR EMAIL ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLT-ow-ndx">

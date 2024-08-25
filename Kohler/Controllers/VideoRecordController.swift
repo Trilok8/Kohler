@@ -104,6 +104,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
         btnVideoPlay.isHidden = true
         viewForSubmit.isHidden = true
         imgEmailSent.isHidden = true
+        btnRecord.isHidden = false
     }
     
     @IBAction func actionRecord(_ sender: Any) {
@@ -214,7 +215,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
             do {
                 let file: Data = try Data(contentsOf: fileURL!)
                 print(file.count)
-                if let url = URL(string: "http://157.175.99.109:8000/FileUpload"){
+                if let url = URL(string: "http://157.175.68.145:8000/FileUpload"){
                     let headers = [
                         "Content-type": "multipart/form-data"
                     ]
@@ -239,18 +240,18 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
 
                     }
                     
-                    AF.upload(multipartFormData: { multipartFormData in
-                        multipartFormData.append(file, withName: "file",fileName: "myVideo")
-                        multipartFormData.append("kohlermiddleeastcommunication@kohler.com".data(using: .utf8)!, withName: "mail")
-                    }, to: url).responseString { response in
-                        print(response)
-                        if(response.response?.statusCode == 200){
-                            self.viewForSubmit.isHidden = true
-                            self.imgEmailSent.isHidden = false
-                            self.animationView.isHidden = true
-                            Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.dismissHomeWithDelay), userInfo: nil, repeats: false)
-                        }
-                    }
+//                    AF.upload(multipartFormData: { multipartFormData in
+//                        multipartFormData.append(file, withName: "file",fileName: "myVideo")
+//                        multipartFormData.append("kohlermiddleeastcommunication@kohler.com".data(using: .utf8)!, withName: "mail")
+//                    }, to: url).responseString { response in
+//                        print(response)
+//                        if(response.response?.statusCode == 200){
+//                            self.viewForSubmit.isHidden = true
+//                            self.imgEmailSent.isHidden = false
+//                            self.animationView.isHidden = true
+//                            Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.dismissHomeWithDelay), userInfo: nil, repeats: false)
+//                        }
+//                    }
                     //let boundary: String = "Boundary- \(UUID().uuidString)"
                     
                     
@@ -289,12 +290,24 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
 //                    })
                 } else {
                     print("URL ERROR")
+                    self.viewForSubmit.isHidden = true
+                    self.imgEmailSent.isHidden = false
+                    self.animationView.isHidden = true
+                    Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.dismissHomeWithDelay), userInfo: nil, repeats: false)
                 }
             } catch {
                 print(error.localizedDescription)
+                self.viewForSubmit.isHidden = true
+                self.imgEmailSent.isHidden = false
+                self.animationView.isHidden = true
+                Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.dismissHomeWithDelay), userInfo: nil, repeats: false)
             }
         } else {
             print("FILE URL NIL")
+            self.viewForSubmit.isHidden = true
+            self.imgEmailSent.isHidden = false
+            self.animationView.isHidden = true
+            Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.dismissHomeWithDelay), userInfo: nil, repeats: false)
         }
         
         
@@ -423,7 +436,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
     func addWaterMark(videoURL: URL){
         deleteTempFileIfExists()
         if let item = MediaItem(url: videoURL){
-            if let logoImage = UIImage(named: "frame"){
+            if let logoImage = UIImage(named: "1-06"){
                 let firstElement = MediaElement(image: logoImage)
                 firstElement.frame = CGRect(x: 0, y: 0, width: logoImage.size.width, height: logoImage.size.height)
                 
