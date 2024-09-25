@@ -71,6 +71,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        fldEmail.text = ""
         fldEmail.delegate = self
         animationView.isHidden = true
         for i in 1...5{
@@ -232,6 +233,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
                                     self.viewForSubmit.isHidden = true
                                     self.imgEmailSent.isHidden = false
                                     self.animationView.isHidden = true
+                                    Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.dismissHomeWithDelay), userInfo: nil, repeats: false)
                                 }
                             }
                         }
