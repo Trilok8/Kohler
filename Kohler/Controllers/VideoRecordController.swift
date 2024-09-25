@@ -215,7 +215,7 @@ class VideoRecordController: NoBarsController,AVCaptureVideoDataOutputSampleBuff
             do {
                 let file: Data = try Data(contentsOf: fileURL!)
                 print(file.count)
-                if let url = URL(string: "http://157.175.68.145:8000/FileUpload"){
+                if let url = URL(string: "http://15.187.43.17:8000/FileUpload"){
                     let headers = [
                         "Content-type": "multipart/form-data"
                     ]
